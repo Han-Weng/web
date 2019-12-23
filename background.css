@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  overflow:hidden;
+}
+#sum {
+  text-align: center;
+  background-color:green
+}
+#projects{
+  background-color:lightblue
+}
+.project1 {
+  border: 1px solid white;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+/* Clearfix (clear floats) */
+.project2 {
+  float: left;
+  white-space: nowrap;
+width: 200px;
+border: 1px solid #000000;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
