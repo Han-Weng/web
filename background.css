@@ -1,30 +1,87 @@
 body {
-  margin: 0;
-  overflow:hidden;
+  overflow: scroll;
+  color: #EBEBEB;
+  margin: 0px;
+  background-color:#141414;
+
+
 }
-#sum {
-  text-align: center;
-  background-color:green
+::-webkit-scrollbar {
+  width: 5px;
+
 }
-#projects{
-  background-color:lightblue
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 1px;
 }
-.project1 {
+
+.sum {
+  color: #EBEBEB;
+  background-image: url(http://hdblackwallpaper.com/wallpaper/2015/09/black-and-green-art-wallpaper-7-high-resolution-wallpaper.jpg);
+  background-size: auto;
+  margin: 0px;
+
   border: 1px solid white;
 
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+}
+#projects{
+  color: #EBEBEB;
+  border: 1px solid white;
+
+  margin-top:0px;
+  margin-bottom:0px;
+
+}
+.project1 {
+  background-color:#141414;
+
+  border: 1px solid white;
 }
 
-/* Clearfix (clear floats) */
-.project2 {
-  float: left;
-  white-space: nowrap;
-width: 200px;
-border: 1px solid #000000;
-overflow: hidden;
-text-overflow: ellipsis;
+li {
+ list-style: none;
+ margin-left: 100px;
 
+}
+
+h3{
+
+  border-bottom: dotted;
+
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 0;
+}
+
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav li {
+  float: left;
+}
+
+a {text-decoration: none; }
+
+.topnav li a {
+  text-decoration:none
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav li a:hover:not(.active) {
+  background-color: #111;
 }
