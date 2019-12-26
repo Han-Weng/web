@@ -1,0 +1,20 @@
+
+li {
+ list-style: none;
+ margin-left: 100px;
+
+}
+
+h3{
+
+  border-bottom: dotted;
+
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 0;
+}
