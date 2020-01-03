@@ -1,0 +1,34 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "website for Carleton course notes and personal poriflio",
+  "main": "App.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord-handles": "^7.3.5",
+    "discord.js": "^11.5.1",
+    "ejs": "^3.0.1",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "webpage": "^0.3.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Han-Weng/web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Han-Weng/web/issues"
+  },
+  "homepage": "https://github.com/Han-Weng/web#readme"
+}
