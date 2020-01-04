@@ -8,9 +8,11 @@
   background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
 }
 </style>
+<link rel="stylesheet" href="assets/style.css">
+
 </head>
 <body>
-  <script src="Navbar.js"></script>
+  <%- include('partials/nav', {active: "About"}); %>
 
 <h1>Linear Gradient - Top to Bottom</h1>
 <p>This linear gradient starts at the top. It starts red, transitioning to yellow:</p>

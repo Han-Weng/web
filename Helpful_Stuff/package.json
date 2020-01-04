@@ -4,6 +4,7 @@
   "description": "website for Carleton course notes and personal poriflio",
   "main": "App.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "canvas": "^2.6.1",
     "discord-handles": "^7.3.5",
     "discord.js": "^11.5.1",
