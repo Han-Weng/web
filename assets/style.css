@@ -1,19 +1,30 @@
 body {
-  overflow: scroll;
-  color: black;
+  color: white;
   margin: 0px;
-  background-color:white;
-
+  background-color:green;
 
 }
 ::-webkit-scrollbar {
   width: 5px;
+
 
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: grey;
   border-radius: 1px;
+}
+.text{
+
+  background-color:black;
+  color: white;
+  border: 1px solid white;
+  height: 100%;
+  width: 80%;
+  background-size: auto;
+  margin: 0px;
+  border-image-outset: 10px;
+
 }
 
 .sum {
@@ -72,16 +83,17 @@ p{
   float: left;
 }
 
-a {text-decoration: none; }
 
 .topnav li a {
-  text-decoration:none
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
+
 }
 
 .topnav li a:hover:not(.active) {
-  background-color: #111;
+  background-color: white;
 }
+b {font-size: 20;}

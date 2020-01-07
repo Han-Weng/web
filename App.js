@@ -36,6 +36,12 @@ app.get('/COMP2804',function(req,res){
   res.render('COMP2804');
 });
 
+app.get('/STAT2507',function(req,res){
+  res.render('STAT2507');
+});
+app.get('/PYSC1001',function(req,res){
+  res.render('PYSC1001');
+});
 
 
 //not useful rn
