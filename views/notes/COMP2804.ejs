@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-#grad1 {
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
-}
-</style>
-<link rel="stylesheet" href="assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'personal/css/bootstrap.min.css' %}" type = "text/css"/>
 
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+</head>
+
+<title>e</title>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
 </head>
 <body>
-  <%- include('partials/nav', {active: "About"}); %>
 
-<h1>Linear Gradient - Top to Bottom</h1>
-<p>This linear gradient starts at the top. It starts red, transitioning to yellow:</p>
+  <div  class="text">
 
-<div id="grad1"></div>
+<%- include('partials/nav', {active: "About"}); %>
 
-<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support gradients.</p>
 
+</div>
 </body>
+
 </html>
