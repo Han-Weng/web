@@ -16,8 +16,8 @@ app.get('/',function(req,res){
   res.render('index');
 });
 
-app.get('/experience',function(req,res){
-  res.render('experience');
+app.get('/Equations',function(req,res){
+  res.render('Equations');
 });
 //
 app.get('/projects',function(req,res){
