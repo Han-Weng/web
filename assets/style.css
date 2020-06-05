@@ -14,62 +14,6 @@ body {
   background: grey;
   border-radius: 1px;
 }
-.text{
-
-  background-color:#EBEBEB;
-  color: #0A0A0A;
-  border: 1px solid white;
-  height: 100%;
-  width: 80%;
-  background-size: auto;
-  margin: 0px;
-  border-image-outset: 10px;
-
-}
-
-.sum {
-  color: #EBEBEB;
-  background-image: url(http://hdblackwallpaper.com/wallpaper/2015/09/black-and-green-art-wallpaper-7-high-resolution-wallpaper.jpg);
-  background-size: auto;
-  margin: 0px;
-
-  border: 1px solid white;
-
-}
-#projects{
-  color: #EBEBEB;
-  border: 1px solid white;
-
-  margin-top:0px;
-  margin-bottom:0px;
-
-}
-.project1 {
-  background-color:#141414;
-
-  border: 1px solid white;
-}
-
-li {
- list-style: none;
- margin-left: 100px;
-
-}
-
-h3{
-
-  border-bottom: dotted;
-
-}
-
-p{
-  margin-top: 0px;
-  margin-bottom: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-  padding: 0;
-}
-
 
 .topnav ul {
   list-style-type: none;

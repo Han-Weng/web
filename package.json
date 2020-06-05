@@ -1,0 +1,38 @@
+{
+  "name": "node.js-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.6.1",
+    "discord-handles": "^7.3.5",
+    "discord.js": "^11.5.1",
+    "ejs": "^3.0.1",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "webpage": "^0.3.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Han-Weng/node.js-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Han-Weng/node.js-website/issues"
+  },
+  "homepage": "https://github.com/Han-Weng/node.js-website#readme"
+}
