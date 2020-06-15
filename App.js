@@ -23,7 +23,7 @@ app.get('/Equations',function(req,res){
 app.get('/projects',function(req,res){
   res.render('projects');
 });
-
+//this is a testing
 
 app.get('/MATH1104',function(req,res){
   res.render('MATH1104');
@@ -49,7 +49,7 @@ app.get('/profile/:name',function(req,res){
   res.render('profile',{id: req.params.name});
 });
 NoteControl(app);
-
+//sdsds
 
 //localhost(number)
 app.listen(3000);
